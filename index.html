@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<!-- Labeling page: ChatGPT CSV editor -->
+	<head>
+		<title>CSV Editor</title>
+		<!-- Link to your external CSS file -->
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	
+	<!-- textArea, button, and editor -->
+	<body>
+		<!-- title at top of the page -->
+		<h1>CSV Editor</h1>
+		
+		<!-- container for the 'upload' and 'paste csv' buttons -->
+		<div id="startButtons">
+			<!-- upload file button -->
+			<button id="uploadButton" onclick="fileUpload()">Upload .csv or .txt</button>
+			
+			<!-- paste csv button -->
+			<button id="pasteCSVButton" onclick="pasteCSV()">Paste csv</button>
+		</div>
+		
+		<!-- container for first text area and associated buttons -->
+		<div id="inputContainer"></div>
+		
+		<!-- container for the error buttons -->
+		<div id="errorContainer"></div>
+		
+		<!-- Container for displaying the result -->
+		<div id="resultContainer"></div>
+		
+		<!-- Container for the modification buttons -->
+		<div id="modButtonContainer"></div>
+		
+		<!-- Container for displaying the modified result -->
+		<div id="modifyContainer"></div>
+		
+		<!-- Javascript code below -->
+		<script src="javascript.js"></script>
+	</body>
+</html>

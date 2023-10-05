@@ -1,0 +1,39 @@
+// Import roboto mono font
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+/* Apply unselectable text to all buttons */
+button {
+	user-select: none;
+	padding: 2.5px 5px;
+}
+
+h1, div, button, input
+{
+	border-radius: 3px;
+	border-width: 1px;
+	margin: 2px;
+}
+
+h1
+{
+	font-family: 'arial';
+	color: rgb(82, 129, 247);
+	font-size: 40px;
+}
+
+textarea
+{
+	margin: 0px;
+	background-color: rgb(250,250,250);
+}
+
+/* Apply a gradient dark background to the HTML page */
+body {
+	background-color: rgb(240,240,240);
+}
+
+body, button, textarea, table, input
+{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+}
