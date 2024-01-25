@@ -222,7 +222,7 @@
 								
 								inContainer.appendChild(inputDiv);
 								
-								// Make text area
+								/*// Make text area
 								let fileTextArea = document.createElement("textarea");
 								fileTextArea.id = "txtArea";
 								
@@ -235,6 +235,23 @@
 								
 								// Add a toggle table button
 								toggleTable(inputText, inContainer, inputDiv);
+								
+								// Make 'save csv' button
+								saveCSV(fileTextArea, inContainer);*/
+
+								// Make text area
+								let fileTextArea = document.createElement("textarea");
+								fileTextArea.id = "txtArea";
+								
+								fileTextArea.placeholder = "Type here";
+								fileTextArea.textContent = content;
+								inputDiv.appendChild(fileTextArea);
+								
+								// Autosize the text area
+								areaAutosize(fileTextArea.id, true);
+								
+								// Add a toggle table button
+								toggleTable(fileTextArea, inContainer, inputDiv);
 								
 								// Make 'save csv' button
 								saveCSV(fileTextArea, inContainer);
