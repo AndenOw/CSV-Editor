@@ -1,0 +1,62 @@
+/* Import Roboto Mono font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+/* Apply a gradient dark background to the HTML page */
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+/* Common styling for various elements */
+body,
+button,
+textarea,
+table,
+input {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+/* Remove default user-select for specific elements */
+table,
+cell,
+h1,
+button,
+br {
+    user-select: none;
+}
+
+/* Styling for buttons */
+button {
+    padding: 2.5px 5px;
+}
+
+/* Styling for various elements with border-radius and border-width */
+h1,
+div,
+button,
+input {
+    border-radius: 3px;
+    border-width: 1px;
+    margin: 2px;
+}
+
+/* Styling for the h1 element */
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: rgb(82, 129, 247);
+    font-size: 40px;
+}
+
+/* Styling for textareas */
+textarea {
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+}
+
+/* Styling for tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
