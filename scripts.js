@@ -1,19 +1,6 @@
 /*	To-do:
-    -Input text and CSV files option
-    -Add style buttons (capitalize, lowercase, capitalize, first, delete rows/columns)
-    -Autodetect errors in the CSV format
-    -Make a style toggle button (CSV, 2d array, table, etc.)
-    1.Set uniform size to buttons in the grid based off the biggest mass toggle button (ex: if there are 1,200 rows, and 200 columns, find how big the buttons need to be to fit "Row 1,200" and match the other buttons to that)
-    2.Instead of buttons in the grid saying: 'row 1, column 1,' make them say what the current element is
-    3.After finding the uniform size in step 1, make the column grow if one of the buttons from step two needs to be bigger
-    -If button grid overflows screen size, add scrollability (so that one huge row doesn't take up mutiple rows
-    -Make text area inflate to the size of the text inside (up to the size of the screen)
-    
-    Bonus features:
-    -Make a file importing option
     -Make copy buttons for the text areas
     -Make it pretty
-    -Disable "save" button after first text area if the text is already saved
     -Add a save.csv and copy buttons after the output area so you can save without modifying
     -Make save.csv button make filename the first row of the csv
     
@@ -24,6 +11,16 @@
     -Save inputted text in a 2d array
     -Output text in CSV format
     -Make the text area uneditable
+    -Input text and CSV files option
+    -Add style buttons (capitalize, lowercase, capitalize, first, delete rows/columns)
+    -Autodetect errors in the CSV format
+    -Make a style toggle button (CSV, 2d array, table, etc.)
+    1.Set uniform size to buttons in the grid based off the biggest mass toggle button (ex: if there are 1,200 rows, and 200 columns, find how big the buttons need to be to fit "Row 1,200" and match the other buttons to that)
+    2.Instead of buttons in the grid saying: 'row 1, column 1,' make them say what the current element is
+    3.After finding the uniform size in step 1, make the column grow if one of the buttons from step two needs to be bigger
+    -If button grid overflows screen size, add scrollability (so that one huge row doesn't take up mutiple rows
+    -Make text area inflate to the size of the text inside (up to the size of the screen)
+    -Make a file importing option
 */
 
 // Make file upload and paste csv buttons dark
