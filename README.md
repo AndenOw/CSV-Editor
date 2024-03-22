@@ -2,18 +2,18 @@
 
 ### Overview
 
-The CSV Editor is a web-based application that enables users to interact with CSV data through a user-friendly interface. It offers features for uploading, manipulating, and analyzing CSV files, facilitating efficient work with tabular data.
+The CSV Editor is a web-based application that enables users to interact with CSV data through a user-friendly interface. It offers features for uploading, manipulating, and analyzing CSV files.
 
 ### Features
 
-- **Upload**: Easily upload CSV files directly through the app.
+- **Upload**: Upload CSV files directly through the app.
 - **Manipulate**: Perform various operations on the data, including automatic error detection, titlecasing, and deleting rows/columns.
 - **Visualize**: Generate a table based on the input CSV.
-- **Export**: Download the modified CSV file.
+- **Export**: Copy or download the modified CSV file.
 
 ### Getting Started
 
-To use the app, simply follow the link: [CSV Editor](https://andenow.github.io/CSV-Editor/).
+Follow the link to get started: [CSV Editor](https://andenow.github.io/CSV-Editor/).
 
 ### Usage
 
@@ -30,5 +30,5 @@ To use the app, simply follow the link: [CSV Editor](https://andenow.github.io/C
 
 ### Contact
 
-For any questions or feedback, feel free to contact us at andenowens@gmail.com.
+Feel free to contact me at andenowens@gmail.com.
 
